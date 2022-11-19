@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jc3x0f');
+  src:  url('fonts/icomoon.eot?jc3x0f#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jc3x0f') format('truetype'),
+    url('fonts/icomoon.woff?jc3x0f') format('woff'),
+    url('fonts/icomoon.svg?jc3x0f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', serif !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 24px;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-footer_money:before {
+  font-size: 39px;
+  fill-opacity:1 ;
+  content: "\e900";
+  color: #0962e8;
+}
+.icon-footer_person:before {
+  font-size: 39px;
+  content: "\e901";
+  color: #0962e8;
+}
+.icon-footer_person_heart:before {
+  font-size: 39px;
+  content: "\e902";
+  color: #0962e8;
+}
+.icon-footer_two_circle:before {
+  font-size: 39px;
+  content: "\e903";
+  color: #0962e8;
+}
+.icon-main_activity:before {
+  content: "\e904";
+  color: #0962e8;
+  background-color: #eff9ff;
+  border-radius: 50%;
+  padding: 7px;
+}
+.icon-main_circle::before {
+  content: "\e905";
+  color: #eff9ff;
+  height: 39px;
+  width: 39px;
+}
+.icon-main_filter:before {
+  content: "\e906";
+  color: #0962e8;
+  background-color: #eff9ff;
+  border-radius: 50%;
+  padding: 7px;
+}
+.icon-main_graph:before {
+  content: "\e907";
+  color: #0962e8;
+  background-color: #eff9ff;
+  border-radius: 50%;
+  padding: 7px;
+}
+.icon-main_setting:before {
+  content: "\e908";
+  color: #0962e8;
+  background-color: #eff9ff;
+  border-radius: 50%;
+  padding: 7px;
+}

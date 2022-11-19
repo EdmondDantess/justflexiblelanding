@@ -1,0 +1,127 @@
+.footer_page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 114px;
+}
+
+.footer_page .left_block {
+    max-width: 502px;
+}
+
+.footer_page .header_text {
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 130%;
+    color: #29374E;
+}
+
+.header_text span {
+    color: #0962E8;
+}
+
+.footer_page .left_block .body_text {
+    max-width: 400px;
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1E2837;
+}
+
+.footer_page .left_block button {
+    margin-top: 31px;
+}
+
+.footer_page .right_block {
+    max-width: 502px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.footer_items {
+    width: 201px;
+    height: 110px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-evenly;
+}
+
+.footer_items:hover {
+    transform: scale(1.05);
+    cursor: default;
+}
+
+.footer_items .icons_footer {
+    width: 40px;
+    height: 40px;
+    background-color: #CBECFF;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1004px) {
+    .footer_page {
+        max-height: 500px;
+        max-width: 500px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .footer_page .left_block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer_page .right_block {
+        height: 300px;
+        margin: 32px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    .footer_items {
+        position: relative;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        width: 180px;
+    }
+
+    .footer_items .icons_footer {
+        position: absolute;
+        top: -7px
+    }
+
+    .footer_items p {
+        margin-top: 30px;
+    }
+
+}
